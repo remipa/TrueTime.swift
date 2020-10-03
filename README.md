@@ -85,6 +85,14 @@ Then run:
 $ carthage update
 ```
 
+### Swift Package Manager
+
+Add this to your `Package.swift`:
+
+```
+.package(url: "https://github.com/jay18001/TrueTime.swift", .revision("51068ca")),
+```
+
 ### CocoaPods
 
 Add this to your `Podfile`:
