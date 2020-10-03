@@ -7,6 +7,7 @@
 //
 
 @testable import TrueTime
+import Foundation
 import Nimble
 import Quick
 
@@ -57,12 +58,12 @@ private extension NTPIntegrationSpec {
 
             for (idx, client) in clients.enumerated() {
                 client.start(pool: ["time.apple.com"])
-                client.fetchIfNeeded { result in
+                client.fetchIfNeeded(completion:  { result in
                     results[idx] = result
                     if !results.contains(where: { $0 == nil }) {
                         finish()
                     }
-                }
+                })
             }
         }
     }

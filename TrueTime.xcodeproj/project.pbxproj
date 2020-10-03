@@ -13,73 +13,79 @@
 		280090561D444B85004C788E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280090301D444AE5004C788E /* Nimble.framework */; };
 		280090571D444B85004C788E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280090311D444AE5004C788E /* Quick.framework */; };
 		280090581D444B85004C788E /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280090321D444AE5004C788E /* SwiftCheck.framework */; };
-		280090661D45489D004C788E /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800905F1D45489D004C788E /* Endian.swift */; };
-		280090671D45489D004C788E /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800905F1D45489D004C788E /* Endian.swift */; };
-		2800906A1D45489D004C788E /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090611D45489D004C788E /* TrueTime.swift */; };
-		2800906B1D45489D004C788E /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090611D45489D004C788E /* TrueTime.swift */; };
-		2800906C1D45489D004C788E /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090621D45489D004C788E /* NTPExtensions.swift */; };
-		2800906D1D45489D004C788E /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090621D45489D004C788E /* NTPExtensions.swift */; };
-		2800906E1D45489D004C788E /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090631D45489D004C788E /* TimedOperation.swift */; };
-		2800906F1D45489D004C788E /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090631D45489D004C788E /* TimedOperation.swift */; };
-		280090701D45489D004C788E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090641D45489D004C788E /* Reachability.swift */; };
-		280090711D45489D004C788E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090641D45489D004C788E /* Reachability.swift */; };
-		280090721D45489D004C788E /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 280090651D45489D004C788E /* TrueTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280090731D45489D004C788E /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 280090651D45489D004C788E /* TrueTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280090781D4548A3004C788E /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090751D4548A3004C788E /* ArbitraryExtensions.swift */; };
-		280090791D4548A3004C788E /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090751D4548A3004C788E /* ArbitraryExtensions.swift */; };
-		2800907C1D4548A3004C788E /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090771D4548A3004C788E /* NTPExtensionsSpec.swift */; };
-		2800907D1D4548A3004C788E /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090771D4548A3004C788E /* NTPExtensionsSpec.swift */; };
 		280090831D454A9F004C788E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090801D454A9F004C788E /* AppDelegate.swift */; };
 		280090841D454A9F004C788E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280090811D454A9F004C788E /* Assets.xcassets */; };
 		28482DCD1D314E7B003491D9 /* TrueTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28482DC21D314E7B003491D9 /* TrueTime.framework */; };
-		285047E81D4D67B800DE4CE8 /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090611D45489D004C788E /* TrueTime.swift */; };
-		285047E91D4D67B800DE4CE8 /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090631D45489D004C788E /* TimedOperation.swift */; };
-		285047EA1D4D67B800DE4CE8 /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090621D45489D004C788E /* NTPExtensions.swift */; };
-		285047EB1D4D67B800DE4CE8 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800905F1D45489D004C788E /* Endian.swift */; };
-		285047EC1D4D67B800DE4CE8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090641D45489D004C788E /* Reachability.swift */; };
-		285047ED1D4D681300DE4CE8 /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 280090651D45489D004C788E /* TrueTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		285047EE1D4D688000DE4CE8 /* TrueTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285047DF1D4D641400DE4CE8 /* TrueTime.framework */; };
-		2866628E1D5B771D002CA06B /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628D1D5B771D002CA06B /* HostResolver.swift */; };
-		286662901D5B7721002CA06B /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628F1D5B7721002CA06B /* NTPConnection.swift */; };
-		286662911D5B82BA002CA06B /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628F1D5B7721002CA06B /* NTPConnection.swift */; };
-		286662921D5B82BB002CA06B /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628F1D5B7721002CA06B /* NTPConnection.swift */; };
-		286662931D5B82BD002CA06B /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628D1D5B771D002CA06B /* HostResolver.swift */; };
-		286662941D5B82BE002CA06B /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866628D1D5B771D002CA06B /* HostResolver.swift */; };
-		28682B651D4D2F4600D65223 /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090751D4548A3004C788E /* ArbitraryExtensions.swift */; };
-		28682B661D4D2F4600D65223 /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280090771D4548A3004C788E /* NTPExtensionsSpec.swift */; };
 		28682B761D4D308100D65223 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28682B571D4D2F2B00D65223 /* Nimble.framework */; };
 		28682B771D4D308100D65223 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28682B581D4D2F2B00D65223 /* Quick.framework */; };
 		28682B781D4D308100D65223 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28682B5A1D4D2F2B00D65223 /* SwiftCheck.framework */; };
 		287485591DB140F70020B777 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 287485581DB140F70020B777 /* Default-568h@2x.png */; };
-		2874855B1DB1AE720020B777 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874855A1DB1AE720020B777 /* NTPResponse.swift */; };
-		2874855C1DB1DFB80020B777 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874855A1DB1AE720020B777 /* NTPResponse.swift */; };
-		2874855D1DB1DFB90020B777 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874855A1DB1AE720020B777 /* NTPResponse.swift */; };
-		28804D9B1D8A2B5600FB186F /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B93B511D8A05AC00DC91FD /* SocketAddress.swift */; };
-		28804D9C1D8A2B5600FB186F /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B93B511D8A05AC00DC91FD /* SocketAddress.swift */; };
-		288334C01DAF200000A38C7C /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288334BF1DAF200000A38C7C /* NTPClient.swift */; };
-		288334C11DAF200000A38C7C /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288334BF1DAF200000A38C7C /* NTPClient.swift */; };
-		288334C21DAF200000A38C7C /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288334BF1DAF200000A38C7C /* NTPClient.swift */; };
 		288A04D01D31A1250032B6FE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288A04CE1D31A1250032B6FE /* Nimble.framework */; };
 		288A04D11D31A1250032B6FE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288A04CF1D31A1250032B6FE /* Quick.framework */; };
 		288A04EC1D31A87F0032B6FE /* TrueTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28482DC21D314E7B003491D9 /* TrueTime.framework */; };
-		28902D511D517802006533D1 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902D501D517802006533D1 /* NTPIntegrationSpec.swift */; };
-		28902D521D517802006533D1 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902D501D517802006533D1 /* NTPIntegrationSpec.swift */; };
-		28902D531D517802006533D1 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902D501D517802006533D1 /* NTPIntegrationSpec.swift */; };
-		28A88AA91DC1AA1600E1B8C3 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */; };
-		28A88AAA1DC1AA2700E1B8C3 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */; };
-		28A88AAB1DC1AA2800E1B8C3 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */; };
 		28AF2F7B1D3CB66100FE536A /* TrueTime.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 28482DC21D314E7B003491D9 /* TrueTime.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		28B93B521D8A05AC00DC91FD /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B93B511D8A05AC00DC91FD /* SocketAddress.swift */; };
-		28BD08411D6248EC00D9981C /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BD083F1D6248EC00D9981C /* TrueTime.m */; };
-		28BD08421D6257DA00D9981C /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BD083F1D6248EC00D9981C /* TrueTime.m */; };
-		28BD08431D6257DA00D9981C /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BD083F1D6248EC00D9981C /* TrueTime.m */; };
-		28EBCA001DC2CE6900CE788E /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */; };
-		28EBCA011DC2CE6900CE788E /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */; };
-		28EBCA021DC2CE6900CE788E /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */; };
 		28F30A3F1DC1374D00CCF4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F30A3D1DC1374700CCF4F0 /* ViewController.swift */; };
-		D4C54EC523D1131A009DE762 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C54EC323D1131A009DE762 /* ntp_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4C54EC623D1195D009DE762 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C54EC323D1131A009DE762 /* ntp_types.h */; };
-		D4C54EC723D1195E009DE762 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C54EC323D1131A009DE762 /* ntp_types.h */; };
+		D02C83792529066300F08E96 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83672529066300F08E96 /* ReferenceTime.swift */; };
+		D02C837A2529066300F08E96 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83672529066300F08E96 /* ReferenceTime.swift */; };
+		D02C837B2529066300F08E96 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83672529066300F08E96 /* ReferenceTime.swift */; };
+		D02C837C2529066300F08E96 /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83682529066300F08E96 /* NTPConnection.swift */; };
+		D02C837D2529066300F08E96 /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83682529066300F08E96 /* NTPConnection.swift */; };
+		D02C837E2529066300F08E96 /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83682529066300F08E96 /* NTPConnection.swift */; };
+		D02C837F2529066300F08E96 /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C83692529066300F08E96 /* TrueTime.m */; };
+		D02C83802529066300F08E96 /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C83692529066300F08E96 /* TrueTime.m */; };
+		D02C83812529066300F08E96 /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C83692529066300F08E96 /* TrueTime.m */; };
+		D02C83822529066300F08E96 /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836A2529066300F08E96 /* GCDLock.swift */; };
+		D02C83832529066300F08E96 /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836A2529066300F08E96 /* GCDLock.swift */; };
+		D02C83842529066300F08E96 /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836A2529066300F08E96 /* GCDLock.swift */; };
+		D02C83852529066300F08E96 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836B2529066300F08E96 /* NTPResponse.swift */; };
+		D02C83862529066300F08E96 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836B2529066300F08E96 /* NTPResponse.swift */; };
+		D02C83872529066300F08E96 /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836B2529066300F08E96 /* NTPResponse.swift */; };
+		D02C83882529066300F08E96 /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836C2529066300F08E96 /* NTPClient.swift */; };
+		D02C83892529066300F08E96 /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836C2529066300F08E96 /* NTPClient.swift */; };
+		D02C838A2529066300F08E96 /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C836C2529066300F08E96 /* NTPClient.swift */; };
+		D02C838B2529066300F08E96 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C836E2529066300F08E96 /* ntp_types.h */; };
+		D02C838C2529066300F08E96 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C836E2529066300F08E96 /* ntp_types.h */; };
+		D02C838D2529066300F08E96 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C836E2529066300F08E96 /* ntp_types.h */; };
+		D02C838E2529066300F08E96 /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83702529066300F08E96 /* NTPExtensions.swift */; };
+		D02C838F2529066300F08E96 /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83702529066300F08E96 /* NTPExtensions.swift */; };
+		D02C83902529066300F08E96 /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83702529066300F08E96 /* NTPExtensions.swift */; };
+		D02C83912529066300F08E96 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83712529066300F08E96 /* Reachability.swift */; };
+		D02C83922529066300F08E96 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83712529066300F08E96 /* Reachability.swift */; };
+		D02C83932529066300F08E96 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83712529066300F08E96 /* Reachability.swift */; };
+		D02C83942529066300F08E96 /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C83722529066300F08E96 /* TrueTime.h */; };
+		D02C83952529066300F08E96 /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C83722529066300F08E96 /* TrueTime.h */; };
+		D02C83962529066300F08E96 /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = D02C83722529066300F08E96 /* TrueTime.h */; };
+		D02C83972529066300F08E96 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83732529066300F08E96 /* Endian.swift */; };
+		D02C83982529066300F08E96 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83732529066300F08E96 /* Endian.swift */; };
+		D02C83992529066300F08E96 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83732529066300F08E96 /* Endian.swift */; };
+		D02C839A2529066300F08E96 /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83742529066300F08E96 /* TimedOperation.swift */; };
+		D02C839B2529066300F08E96 /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83742529066300F08E96 /* TimedOperation.swift */; };
+		D02C839C2529066300F08E96 /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83742529066300F08E96 /* TimedOperation.swift */; };
+		D02C839D2529066300F08E96 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83752529066300F08E96 /* SocketAddress.swift */; };
+		D02C839E2529066300F08E96 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83752529066300F08E96 /* SocketAddress.swift */; };
+		D02C839F2529066300F08E96 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83752529066300F08E96 /* SocketAddress.swift */; };
+		D02C83A02529066300F08E96 /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83762529066300F08E96 /* HostResolver.swift */; };
+		D02C83A12529066300F08E96 /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83762529066300F08E96 /* HostResolver.swift */; };
+		D02C83A22529066300F08E96 /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83762529066300F08E96 /* HostResolver.swift */; };
+		D02C83A32529066300F08E96 /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83772529066300F08E96 /* TrueTime.swift */; };
+		D02C83A42529066300F08E96 /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83772529066300F08E96 /* TrueTime.swift */; };
+		D02C83A52529066300F08E96 /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83772529066300F08E96 /* TrueTime.swift */; };
+		D02C83A62529066300F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83782529066300F08E96 /* Info.plist */; };
+		D02C83A72529066300F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83782529066300F08E96 /* Info.plist */; };
+		D02C83A82529066300F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83782529066300F08E96 /* Info.plist */; };
+		D02C83C02529067B00F08E96 /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BC2529067B00F08E96 /* NTPExtensionsSpec.swift */; };
+		D02C83C12529067C00F08E96 /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BC2529067B00F08E96 /* NTPExtensionsSpec.swift */; };
+		D02C83C22529067C00F08E96 /* NTPExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BC2529067B00F08E96 /* NTPExtensionsSpec.swift */; };
+		D02C83C32529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BD2529067B00F08E96 /* NTPIntegrationSpec.swift */; };
+		D02C83C42529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BD2529067B00F08E96 /* NTPIntegrationSpec.swift */; };
+		D02C83C52529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BD2529067B00F08E96 /* NTPIntegrationSpec.swift */; };
+		D02C83C62529067C00F08E96 /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BE2529067B00F08E96 /* ArbitraryExtensions.swift */; };
+		D02C83C72529067C00F08E96 /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BE2529067B00F08E96 /* ArbitraryExtensions.swift */; };
+		D02C83C82529067C00F08E96 /* ArbitraryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C83BE2529067B00F08E96 /* ArbitraryExtensions.swift */; };
+		D02C83C92529067C00F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83BF2529067B00F08E96 /* Info.plist */; };
+		D02C83CA2529067C00F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83BF2529067B00F08E96 /* Info.plist */; };
+		D02C83CB2529067C00F08E96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D02C83BF2529067B00F08E96 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,16 +140,6 @@
 		280090311D444AE5004C788E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		280090321D444AE5004C788E /* SwiftCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCheck.framework; path = Carthage/Build/Mac/SwiftCheck.framework; sourceTree = "<group>"; };
 		2800904A1D444B64004C788E /* TrueTime-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrueTime-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2800905F1D45489D004C788E /* Endian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endian.swift; sourceTree = "<group>"; };
-		280090601D45489D004C788E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		280090611D45489D004C788E /* TrueTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueTime.swift; sourceTree = "<group>"; };
-		280090621D45489D004C788E /* NTPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPExtensions.swift; sourceTree = "<group>"; };
-		280090631D45489D004C788E /* TimedOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedOperation.swift; sourceTree = "<group>"; };
-		280090641D45489D004C788E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		280090651D45489D004C788E /* TrueTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueTime.h; sourceTree = "<group>"; };
-		280090751D4548A3004C788E /* ArbitraryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArbitraryExtensions.swift; sourceTree = "<group>"; };
-		280090761D4548A3004C788E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		280090771D4548A3004C788E /* NTPExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPExtensionsSpec.swift; sourceTree = "<group>"; };
 		280090801D454A9F004C788E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		280090811D454A9F004C788E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280090821D454A9F004C788E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,27 +171,37 @@
 		28482DC21D314E7B003491D9 /* TrueTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrueTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28482DCC1D314E7B003491D9 /* TrueTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		285047DF1D4D641400DE4CE8 /* TrueTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrueTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2866628D1D5B771D002CA06B /* HostResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostResolver.swift; sourceTree = "<group>"; };
-		2866628F1D5B7721002CA06B /* NTPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPConnection.swift; sourceTree = "<group>"; };
 		28682B571D4D2F2B00D65223 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		28682B581D4D2F2B00D65223 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
 		28682B5A1D4D2F2B00D65223 /* SwiftCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCheck.framework; path = Carthage/Build/tvOS/SwiftCheck.framework; sourceTree = "<group>"; };
 		28682B731D4D2F4600D65223 /* TrueTime-TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrueTime-TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		287485581DB140F70020B777 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2874855A1DB1AE720020B777 /* NTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPResponse.swift; sourceTree = "<group>"; };
 		287C37B41D4419F800084D47 /* TrueTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrueTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		288334BF1DAF200000A38C7C /* NTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPClient.swift; sourceTree = "<group>"; };
 		288A04CE1D31A1250032B6FE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		288A04CF1D31A1250032B6FE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		288A04D71D31A74D0032B6FE /* TrueTimeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTimeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28902D501D517802006533D1 /* NTPIntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPIntegrationSpec.swift; sourceTree = "<group>"; };
-		28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceTime.swift; sourceTree = "<group>"; };
-		28B93B511D8A05AC00DC91FD /* SocketAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAddress.swift; sourceTree = "<group>"; };
-		28BD083F1D6248EC00D9981C /* TrueTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueTime.m; sourceTree = "<group>"; };
-		28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDLock.swift; sourceTree = "<group>"; };
 		28F30A3D1DC1374700CCF4F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4C54EC323D1131A009DE762 /* ntp_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ntp_types.h; sourceTree = "<group>"; };
-		D4C54EC423D1131A009DE762 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		D02C83672529066300F08E96 /* ReferenceTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceTime.swift; sourceTree = "<group>"; };
+		D02C83682529066300F08E96 /* NTPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPConnection.swift; sourceTree = "<group>"; };
+		D02C83692529066300F08E96 /* TrueTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueTime.m; sourceTree = "<group>"; };
+		D02C836A2529066300F08E96 /* GCDLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDLock.swift; sourceTree = "<group>"; };
+		D02C836B2529066300F08E96 /* NTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPResponse.swift; sourceTree = "<group>"; };
+		D02C836C2529066300F08E96 /* NTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPClient.swift; sourceTree = "<group>"; };
+		D02C836E2529066300F08E96 /* ntp_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ntp_types.h; sourceTree = "<group>"; };
+		D02C836F2529066300F08E96 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		D02C83702529066300F08E96 /* NTPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPExtensions.swift; sourceTree = "<group>"; };
+		D02C83712529066300F08E96 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D02C83722529066300F08E96 /* TrueTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueTime.h; sourceTree = "<group>"; };
+		D02C83732529066300F08E96 /* Endian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endian.swift; sourceTree = "<group>"; };
+		D02C83742529066300F08E96 /* TimedOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedOperation.swift; sourceTree = "<group>"; };
+		D02C83752529066300F08E96 /* SocketAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAddress.swift; sourceTree = "<group>"; };
+		D02C83762529066300F08E96 /* HostResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostResolver.swift; sourceTree = "<group>"; };
+		D02C83772529066300F08E96 /* TrueTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueTime.swift; sourceTree = "<group>"; };
+		D02C83782529066300F08E96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02C83BC2529067B00F08E96 /* NTPExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPExtensionsSpec.swift; sourceTree = "<group>"; };
+		D02C83BD2529067B00F08E96 /* NTPIntegrationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPIntegrationSpec.swift; sourceTree = "<group>"; };
+		D02C83BE2529067B00F08E96 /* ArbitraryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArbitraryExtensions.swift; sourceTree = "<group>"; };
+		D02C83BF2529067B00F08E96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,22 +273,7 @@
 		2800905D1D45489D004C788E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D4C54EC223D1131A009DE762 /* CTrueTime */,
-				280090611D45489D004C788E /* TrueTime.swift */,
-				2866628D1D5B771D002CA06B /* HostResolver.swift */,
-				288334BF1DAF200000A38C7C /* NTPClient.swift */,
-				2866628F1D5B7721002CA06B /* NTPConnection.swift */,
-				280090621D45489D004C788E /* NTPExtensions.swift */,
-				2874855A1DB1AE720020B777 /* NTPResponse.swift */,
-				280090641D45489D004C788E /* Reachability.swift */,
-				28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */,
-				28B93B511D8A05AC00DC91FD /* SocketAddress.swift */,
-				280090631D45489D004C788E /* TimedOperation.swift */,
-				2800905F1D45489D004C788E /* Endian.swift */,
-				28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */,
-				280090651D45489D004C788E /* TrueTime.h */,
-				28BD083F1D6248EC00D9981C /* TrueTime.m */,
-				280090601D45489D004C788E /* Info.plist */,
+				D02C83662529066300F08E96 /* TrueTime.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -290,12 +281,10 @@
 		280090741D4548A3004C788E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				280090771D4548A3004C788E /* NTPExtensionsSpec.swift */,
-				280090751D4548A3004C788E /* ArbitraryExtensions.swift */,
-				28902D501D517802006533D1 /* NTPIntegrationSpec.swift */,
-				280090761D4548A3004C788E /* Info.plist */,
+				D02C83BB2529067B00F08E96 /* TrueTime.swiftTests */,
 			);
-			path = Tests;
+			name = Tests;
+			path = Tests/TrueTime.swiftTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		2800907E1D454A9F004C788E /* Examples */ = {
@@ -474,13 +463,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4C54EC223D1131A009DE762 /* CTrueTime */ = {
+		D02C83662529066300F08E96 /* TrueTime.swift */ = {
 			isa = PBXGroup;
 			children = (
-				D4C54EC323D1131A009DE762 /* ntp_types.h */,
-				D4C54EC423D1131A009DE762 /* module.modulemap */,
+				D02C83672529066300F08E96 /* ReferenceTime.swift */,
+				D02C83682529066300F08E96 /* NTPConnection.swift */,
+				D02C83692529066300F08E96 /* TrueTime.m */,
+				D02C836A2529066300F08E96 /* GCDLock.swift */,
+				D02C836B2529066300F08E96 /* NTPResponse.swift */,
+				D02C836C2529066300F08E96 /* NTPClient.swift */,
+				D02C836D2529066300F08E96 /* CTrueTime */,
+				D02C83702529066300F08E96 /* NTPExtensions.swift */,
+				D02C83712529066300F08E96 /* Reachability.swift */,
+				D02C83722529066300F08E96 /* TrueTime.h */,
+				D02C83732529066300F08E96 /* Endian.swift */,
+				D02C83742529066300F08E96 /* TimedOperation.swift */,
+				D02C83752529066300F08E96 /* SocketAddress.swift */,
+				D02C83762529066300F08E96 /* HostResolver.swift */,
+				D02C83772529066300F08E96 /* TrueTime.swift */,
+				D02C83782529066300F08E96 /* Info.plist */,
+			);
+			path = TrueTime.swift;
+			sourceTree = "<group>";
+		};
+		D02C836D2529066300F08E96 /* CTrueTime */ = {
+			isa = PBXGroup;
+			children = (
+				D02C836E2529066300F08E96 /* ntp_types.h */,
+				D02C836F2529066300F08E96 /* module.modulemap */,
 			);
 			path = CTrueTime;
+			sourceTree = "<group>";
+		};
+		D02C83BB2529067B00F08E96 /* TrueTime.swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02C83BC2529067B00F08E96 /* NTPExtensionsSpec.swift */,
+				D02C83BD2529067B00F08E96 /* NTPIntegrationSpec.swift */,
+				D02C83BE2529067B00F08E96 /* ArbitraryExtensions.swift */,
+				D02C83BF2529067B00F08E96 /* Info.plist */,
+			);
+			name = TrueTime.swiftTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,8 +513,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280090721D45489D004C788E /* TrueTime.h in Headers */,
-				D4C54EC523D1131A009DE762 /* ntp_types.h in Headers */,
+				D02C838B2529066300F08E96 /* ntp_types.h in Headers */,
+				D02C83942529066300F08E96 /* TrueTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,8 +522,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285047ED1D4D681300DE4CE8 /* TrueTime.h in Headers */,
-				D4C54EC723D1195E009DE762 /* ntp_types.h in Headers */,
+				D02C838D2529066300F08E96 /* ntp_types.h in Headers */,
+				D02C83962529066300F08E96 /* TrueTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,8 +531,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280090731D45489D004C788E /* TrueTime.h in Headers */,
-				D4C54EC623D1195D009DE762 /* ntp_types.h in Headers */,
+				D02C838C2529066300F08E96 /* ntp_types.h in Headers */,
+				D02C83952529066300F08E96 /* TrueTime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +736,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83CA2529067C00F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +744,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83A62529066300F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +752,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83C92529067C00F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +760,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83A82529066300F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +768,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83CB2529067C00F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,6 +776,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02C83A72529066300F08E96 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -877,9 +906,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280090791D4548A3004C788E /* ArbitraryExtensions.swift in Sources */,
-				2800907D1D4548A3004C788E /* NTPExtensionsSpec.swift in Sources */,
-				28902D521D517802006533D1 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C72529067C00F08E96 /* ArbitraryExtensions.swift in Sources */,
+				D02C83C42529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C12529067C00F08E96 /* NTPExtensionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,19 +916,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2800906E1D45489D004C788E /* TimedOperation.swift in Sources */,
-				28BD08411D6248EC00D9981C /* TrueTime.m in Sources */,
-				28B93B521D8A05AC00DC91FD /* SocketAddress.swift in Sources */,
-				2800906A1D45489D004C788E /* TrueTime.swift in Sources */,
-				28EBCA001DC2CE6900CE788E /* GCDLock.swift in Sources */,
-				2866628E1D5B771D002CA06B /* HostResolver.swift in Sources */,
-				280090661D45489D004C788E /* Endian.swift in Sources */,
-				2874855B1DB1AE720020B777 /* NTPResponse.swift in Sources */,
-				280090701D45489D004C788E /* Reachability.swift in Sources */,
-				28A88AA91DC1AA1600E1B8C3 /* ReferenceTime.swift in Sources */,
-				286662901D5B7721002CA06B /* NTPConnection.swift in Sources */,
-				2800906C1D45489D004C788E /* NTPExtensions.swift in Sources */,
-				288334C01DAF200000A38C7C /* NTPClient.swift in Sources */,
+				D02C83792529066300F08E96 /* ReferenceTime.swift in Sources */,
+				D02C839A2529066300F08E96 /* TimedOperation.swift in Sources */,
+				D02C837C2529066300F08E96 /* NTPConnection.swift in Sources */,
+				D02C83A32529066300F08E96 /* TrueTime.swift in Sources */,
+				D02C839D2529066300F08E96 /* SocketAddress.swift in Sources */,
+				D02C83972529066300F08E96 /* Endian.swift in Sources */,
+				D02C83822529066300F08E96 /* GCDLock.swift in Sources */,
+				D02C837F2529066300F08E96 /* TrueTime.m in Sources */,
+				D02C838E2529066300F08E96 /* NTPExtensions.swift in Sources */,
+				D02C83912529066300F08E96 /* Reachability.swift in Sources */,
+				D02C83882529066300F08E96 /* NTPClient.swift in Sources */,
+				D02C83A02529066300F08E96 /* HostResolver.swift in Sources */,
+				D02C83852529066300F08E96 /* NTPResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,9 +936,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280090781D4548A3004C788E /* ArbitraryExtensions.swift in Sources */,
-				2800907C1D4548A3004C788E /* NTPExtensionsSpec.swift in Sources */,
-				28902D511D517802006533D1 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C62529067C00F08E96 /* ArbitraryExtensions.swift in Sources */,
+				D02C83C32529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C02529067B00F08E96 /* NTPExtensionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,19 +946,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285047E91D4D67B800DE4CE8 /* TimedOperation.swift in Sources */,
-				285047E81D4D67B800DE4CE8 /* TrueTime.swift in Sources */,
-				28804D9C1D8A2B5600FB186F /* SocketAddress.swift in Sources */,
-				285047EB1D4D67B800DE4CE8 /* Endian.swift in Sources */,
-				28EBCA021DC2CE6900CE788E /* GCDLock.swift in Sources */,
-				285047EC1D4D67B800DE4CE8 /* Reachability.swift in Sources */,
-				28BD08431D6257DA00D9981C /* TrueTime.m in Sources */,
-				2874855D1DB1DFB90020B777 /* NTPResponse.swift in Sources */,
-				286662941D5B82BE002CA06B /* HostResolver.swift in Sources */,
-				28A88AAB1DC1AA2800E1B8C3 /* ReferenceTime.swift in Sources */,
-				286662921D5B82BB002CA06B /* NTPConnection.swift in Sources */,
-				285047EA1D4D67B800DE4CE8 /* NTPExtensions.swift in Sources */,
-				288334C21DAF200000A38C7C /* NTPClient.swift in Sources */,
+				D02C837B2529066300F08E96 /* ReferenceTime.swift in Sources */,
+				D02C839C2529066300F08E96 /* TimedOperation.swift in Sources */,
+				D02C837E2529066300F08E96 /* NTPConnection.swift in Sources */,
+				D02C83A52529066300F08E96 /* TrueTime.swift in Sources */,
+				D02C839F2529066300F08E96 /* SocketAddress.swift in Sources */,
+				D02C83992529066300F08E96 /* Endian.swift in Sources */,
+				D02C83842529066300F08E96 /* GCDLock.swift in Sources */,
+				D02C83812529066300F08E96 /* TrueTime.m in Sources */,
+				D02C83902529066300F08E96 /* NTPExtensions.swift in Sources */,
+				D02C83932529066300F08E96 /* Reachability.swift in Sources */,
+				D02C838A2529066300F08E96 /* NTPClient.swift in Sources */,
+				D02C83A22529066300F08E96 /* HostResolver.swift in Sources */,
+				D02C83872529066300F08E96 /* NTPResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,9 +966,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28682B651D4D2F4600D65223 /* ArbitraryExtensions.swift in Sources */,
-				28682B661D4D2F4600D65223 /* NTPExtensionsSpec.swift in Sources */,
-				28902D531D517802006533D1 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C82529067C00F08E96 /* ArbitraryExtensions.swift in Sources */,
+				D02C83C52529067C00F08E96 /* NTPIntegrationSpec.swift in Sources */,
+				D02C83C22529067C00F08E96 /* NTPExtensionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -947,19 +976,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2800906F1D45489D004C788E /* TimedOperation.swift in Sources */,
-				2800906B1D45489D004C788E /* TrueTime.swift in Sources */,
-				28804D9B1D8A2B5600FB186F /* SocketAddress.swift in Sources */,
-				280090671D45489D004C788E /* Endian.swift in Sources */,
-				28EBCA011DC2CE6900CE788E /* GCDLock.swift in Sources */,
-				280090711D45489D004C788E /* Reachability.swift in Sources */,
-				28BD08421D6257DA00D9981C /* TrueTime.m in Sources */,
-				2874855C1DB1DFB80020B777 /* NTPResponse.swift in Sources */,
-				286662931D5B82BD002CA06B /* HostResolver.swift in Sources */,
-				28A88AAA1DC1AA2700E1B8C3 /* ReferenceTime.swift in Sources */,
-				286662911D5B82BA002CA06B /* NTPConnection.swift in Sources */,
-				2800906D1D45489D004C788E /* NTPExtensions.swift in Sources */,
-				288334C11DAF200000A38C7C /* NTPClient.swift in Sources */,
+				D02C837A2529066300F08E96 /* ReferenceTime.swift in Sources */,
+				D02C839B2529066300F08E96 /* TimedOperation.swift in Sources */,
+				D02C837D2529066300F08E96 /* NTPConnection.swift in Sources */,
+				D02C83A42529066300F08E96 /* TrueTime.swift in Sources */,
+				D02C839E2529066300F08E96 /* SocketAddress.swift in Sources */,
+				D02C83982529066300F08E96 /* Endian.swift in Sources */,
+				D02C83832529066300F08E96 /* GCDLock.swift in Sources */,
+				D02C83802529066300F08E96 /* TrueTime.m in Sources */,
+				D02C838F2529066300F08E96 /* NTPExtensions.swift in Sources */,
+				D02C83922529066300F08E96 /* Reachability.swift in Sources */,
+				D02C83892529066300F08E96 /* NTPClient.swift in Sources */,
+				D02C83A12529066300F08E96 /* HostResolver.swift in Sources */,
+				D02C83862529066300F08E96 /* NTPResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

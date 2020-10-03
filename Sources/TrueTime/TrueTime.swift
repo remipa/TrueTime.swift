@@ -8,6 +8,12 @@
 
 import Foundation
 
+let TrueTimeErrorDomain = "com.instacart.TrueTimeErrorDomain"
+
+extension Notification.Name {
+    static let TrueTimeUpdated = Notification.Name.init("TrueTimeUpdatedNotification")
+}
+
 @objc public enum TrueTimeError: Int {
     case cannotFindHost
     case dnsLookupFailed
@@ -117,9 +123,9 @@ extension TrueTimeClient {
     @objc public func fetchIfNeeded(success: @escaping (ReferenceTime) -> Void,
                                     failure: ((NSError) -> Void)?,
                                     onQueue queue: DispatchQueue) {
-        fetchIfNeeded(queue: queue) { result in
+        fetchIfNeeded(queue: queue, completion: { result in
             self.mapBridgedResult(result, success: success, failure: failure)
-        }
+        })
     }
 
     private func mapBridgedResult(_ result: ReferenceTimeResult,
