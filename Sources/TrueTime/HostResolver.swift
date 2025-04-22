@@ -142,7 +142,7 @@ final class HostResolver {
         let client = retainedClient.takeUnretainedValue()
         client.callbackPending = false
         client.connect(host)
-        retainedClient.release()
+        // retainedClient.release() // crash reported
     }
 }
 
